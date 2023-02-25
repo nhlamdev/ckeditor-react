@@ -1,0 +1,84 @@
+.root > div {
+    width: 100%;
+    max-height: 400px;
+    /* max-height: 500px;
+    min-height: 500px;
+    overflow-y: scroll; */
+}
+
+.root > div:first-child > div:first-child > div:nth-child(3) {
+    display: none;
+}
+
+.root > div:first-child > div:first-child > div:nth-child(4) {
+    display: none;
+}
+
+.root > div:first-child > div:first-child {
+    min-height: 300px !important;
+    max-height: 300px;
+}
+
+.meeting > div {
+    width: 100%;
+    max-height: 400px;
+    /* max-height: 500px;
+    min-height: 500px;
+    overflow-y: scroll; */
+}
+
+.meeting > div:first-child > div:first-child > div:nth-child(3) {
+    display: none;
+}
+
+.meeting > div:first-child > div:first-child > div:nth-child(4) {
+    display: none;
+}
+
+.meeting > div:first-child > div:first-child {
+    min-height: 400px !important;
+    max-height: 400px;
+}
+
+@media screen and (max-width: 1024px) {
+    .meeting > div {
+        width: 100%;
+        max-height: 200px;
+        /* max-height: 500px;
+        min-height: 500px;
+        overflow-y: scroll; */
+    }
+
+    .meeting > div:first-child > div:first-child > div:nth-child(3) {
+        display: none;
+    }
+
+    .meeting > div:first-child > div:first-child > div:nth-child(4) {
+        display: none;
+    }
+
+    .meeting > div:first-child > div:first-child {
+        min-height: 200px !important;
+        max-height: 200px;
+    }
+}
+
+/* meeting info */
+.meetinginfo > div {
+    width: 100%;
+    /* max-height: 500px;
+    min-height: 500px;
+    overflow-y: scroll; */
+}
+
+.meetinginfo > div:first-child > div:first-child > div:nth-child(3) {
+    display: none;
+}
+
+.meetinginfo > div:first-child > div:first-child > div:nth-child(4) {
+    display: none;
+}
+
+.meetinginfo > div:first-child > div:first-child {
+    min-height: 280px !important;
+}
